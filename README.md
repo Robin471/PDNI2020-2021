@@ -25,3 +25,6 @@ Nous avons codé en multifichiers :
 - le fichier "CreateDatasets.c" se charge de créer les 2 datasets
 - le fichier "CreateModels.c" crée les 3 fichiers modèles.
 - le fichier "Evaluation.c" se charge de l'évaluation du testSet et de l'affichage des résultats
+
+NOTE : le problème avec le fait que le mouvement "jogging" n'était jamais identifié correctement a été résolu (Au lieu de lire par exemple 1.50 en vecteur accélération,
+le programme lisait .5 (0.5), les modèles pris en compte étaient alors mauvais)
